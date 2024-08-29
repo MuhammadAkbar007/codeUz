@@ -1,0 +1,11 @@
+### Create Profile
+POST http://localhost:8080/profile/registration
+Content-Type: application/json
+
+{
+  "name": "Valish",
+  "surname": "Valiyev",
+  "phone": "998912342222",
+  "password": "qwerty123",
+  "role": "ROLE_ADMIN"
+}

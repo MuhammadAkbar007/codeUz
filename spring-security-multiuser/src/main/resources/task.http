@@ -1,0 +1,16 @@
+### Create a task
+POST http://localhost:8080/task
+Content-Type: application/json
+Authorization: Basic OTk4OTEyMzQ1Njc4OnF3ZXJ0eTEyMw==
+
+{
+  "title": "Sartarosh",
+  "content": "Sartaroshga borib sochni oldirib kelish kerak"
+}
+
+### Get all tasks
+GET http://localhost:8080/task
+
+### delete a task
+DELETE http://localhost:8080/task/57eb63ee-3312-4acb-bc32-af544c74631d
+Authorization: Basic bWF6Z2k6MTIzNDU2
